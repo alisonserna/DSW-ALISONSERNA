@@ -1,0 +1,32 @@
+header{
+    background-color: black; 
+    color: white;
+    padding: 20px;
+}
+nav{
+    background-color: cornsilk;
+    color: white;
+    padding: 10px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: burlywood;
+    color: black;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color: cornsilk;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}

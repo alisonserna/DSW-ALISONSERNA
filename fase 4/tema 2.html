@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fase 4</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<hr>
+
+<body>
+    <header>
+        <center>
+            <h1>ETIQUETAS SÉMANTICAS,LISTAS Y ENLACES</h1>
+        </center>
+    </header>
+    <hr>
+
+    <NAv>
+        <ul>
+            <li> <a href="inicio.html"index.html">INICIO</a></li>
+            <li> <a href="#">TEMAS</a>
+                <Ul> 
+                    <li> <a href="tema 1.html">Tema 1</a></li>
+                    <li> <a href="tema 2.html">Tema 2</a></li>
+                </Ul>
+            </li>
+            <li> <a href="#">RECURSOS DIGITALES</a>
+                <ul>
+                    <li> <a href="recurso 1.html">Recurso 1</a></li>
+                    <li> <a href="recurso 2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">APRENDIZAJE</a>
+                <ul>
+                    <li><a href="aprendizaje 1.html">Actividad 1</a></li>
+                    <li> <a href="aprendizaje 2.html">Actividad 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ACERCA DE</a>
+                <ul>
+                    <li><a href="AUTOR.html">Autor</a></li>
+                </ul>
+            </li>
+        </ul>
+    </NAv>
+    <div class="contenedor">
+        <section>
+            <article>
+                <CEnter>
+                    <h1>HTML5</h1>
+                </CEnter>
+                <p>
+                    HTML 5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico
+                    de la World Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica»,
+                    HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que
+                    deberá servirse con sintaxis XML (application/xhtml+xml).12 Esta es la primera vez que HTML y XHTML
+                    se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó
+                    en octubre de 2014.3
+                <p>
+                    Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al
+                    usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el
+                    potencial que provee HTML 5.
+                </p>
+                <p>
+                    El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
+                </p>
+                <p>
+                    Después de nuestro artículo de introducción a HTML5, vamos a hacer un repaso a algunas de las nuevas
+                    etiquetas que nos trae esta revisión del lenguaje. En particular, en este artículo, nos centraremos
+                    en las que han aparecido para añadir valor semántico y estructural a la web.
+                </p>
+
+                Algunas de las más importantes etiquetas introducidas en HTML5 son las que añaden valor semántico y
+                estructural, es decir, indican de forma inequívoca las distintas partes de las que consta una
+                página: cabecera, pie, navegación, ETC.
+                </p>
+
+                <p>
+                    <img src="IMG/images.png" alt="">
+                </p>
+                <cite>Redirect Notice. (2021). Retrieved 22 June 2021, from
+                    https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ediciones-eni.com%2Fopen%2Fmediabook.aspx%3FidR%3D0c18483e900b2f7a16e4bec52a958ae9&psig=AOvVaw0cP2n9OgJMLloE7CtNyl-a&ust=1624417757543000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLjd_PqhqvECFQAAAAAdAAAAABAK</cite>
+            </article>
+
+            <article>
+                <P>
+                    Las listas no ordenadas van dentro de la etiqueta
+                    ul HTML y de su cierre /ul. Cada punto que queramos añadir a la lista, lo haremos dentro de la
+                    etiqueta li y su cierre.
+                <P>
+                    Las listas ordenadas van enmarcadas dentro de las etiquetas ol /ol. Cada punto de la lista se
+                    escribe con la misma etiqueta que en las no numeradas:
+                    li. Pero al ser listas ordenadas los símbolos serán números y éstos se irán generando
+                    automáticamente por orden, conforme escribamos nuevos puntos.
+                </P>
+                <P>
+                    Si lo que vamos a hacer es un listado de definiciones, podemos usar las etiquetas dl, dt y
+                    dd. Vamos a explicarlas por partes:
+                </P>
+                <P>
+                    Si lo que vamos a hacer es un listado de definiciones, podemos usar las etiquetas dl, dt y
+                    La etiqueta dl viene de los términos ingleses “Definiton list” y nos indica que dentro de
+                    ella, entre ella y su cierre, va a ir una definición.
+                </P>
+                La etiqueta dt viene de los términos “Definition term” y dentro de ella irá el término que
+                vamos a definir. Para entendernos mejor, dentro de
+                dt iría el título de la definición.
+                <P>
+                    La etiqueta dd viene de los términos “Definition description” y nos dice que dentro de ésta
+                    irá la definición.
+                </P>
+                <img src="img/descarga.jfif" alt="">
+                </P>
+                <cite>HTML, C., CSS, C., Hostings, C., HTML, C., Anticona, H., & cali, h. et al. (2021). Listas en HTML
+                    (Etiquetas ul, ol, li, dl, dt, dd) - Tutorial HTML. Retrieved 22 June 2021, from
+                    https://www.hazunaweb.com/curso-de-html/listas/
+                </cite>
+            </article>
+
+            <article>
+                <p>
+                    Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado nada en el navegador web
+                    que estemos utilizando el enlace se abre en la misma ventana en la que tengamos el enlace.
+                    Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace. Eso lo podemos
+                    hacer mediante el atributo target. Los posibles valores que admite el atributo target son:
+                </p>
+                <p>
+                <ul> • _blank, el agente de usuario intentará abrir el enlace en una nueva ventana. La nueva ventana no
+                    tendrá nombre.</ul>
+                <ul>• _self, el agente de usuario intentará abrir el enlace en el mismo marco donde está en código
+                    actual.</ul>
+                <ul> • _parent, el agente de usuario intentará abrir el enlace en el frameset inmediatamente superior al
+                    que se encuentra la página. Esto suele suceder cuando tenemos el enlace en un área de frames.</ul>
+                <ul> • _top, el agente de usuario intentará abrir el enlace en la ventana padre. En el caso de que
+                    exista un frameset lo eliminará y se hará con toda la ventana.</ul>
+                <ul> • nombre_marco, se podrá indicar el nombre de un frame. En este caso el agente de usuario intentará
+                    abrir el enlace en el frame que coincida con el nombre. En el caso de no existir un frame con ese
+                    nombre lo abrirá en una nueva ventana, asignándole dicho nombre.</ul>
+                </p>
+                <p>
+                    <img src="img/estructura-enlace-html.jpeg" alt="">
+                </p>
+                <cite> Redirect Notice. (2021). Retrieved 22 June 2021, from
+                    https://www.google.com/url?sa=i&url=https%3A%2F%2Fnorfipc.com%2Fcodigos%2Fcomo-usar-enlaces-vinculos-anclajes-html.php&psig=AOvVaw2eqb_ioNc0coCrl5k2I6zH&ust=1624418347717000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjXp4qkqvECFQAAAAAdAAAAABAD</cite>
+            </article>
+        </section>
+
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+
+    <footer>
+        correo: myoli9311@hotmail.com <br>
+        Skype: myoli9311@hotmail.com <br>
+        Fecha de actualización: 21/06/2021 <br>
+    </footer>
+</body>
+
+</html>
