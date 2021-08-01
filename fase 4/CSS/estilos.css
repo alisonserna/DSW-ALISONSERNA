@@ -30,25 +30,3 @@ footer{
     display: block;
     clear: both;
 }
-
-.Navegacion{
-    width: 100px;
-    margin: 30px auto;
-    background-color: cornsilk;
-}
-
-.Navegacion ul{
-    list-style: none;
-}
-
-.menu > li {
-    position: relative;
-    display: inline-block;
-}
-
-.menu > li >a{
-    display: block;
-    padding: 15px 20px;
-    color: cornsilk;
-    font-family: 'Times New Roman', Times, serif;
-}
