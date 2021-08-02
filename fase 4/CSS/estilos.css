@@ -5,11 +5,11 @@
 }
 header{
     background-color: black;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     padding: 20px;
+    background-color: black;
 }
 nav{
     background-color: cornsilk;
@@ -19,17 +19,17 @@ nav{
 section{
     float: left;
     width: 70%;
-    background-color: burlywood;
-    color: black;
+    background-color: rgb(202, 162, 240);
+    color:burlywood;
 }
 aside{
     float: left;
     width: 30%;
-    background-color: cornsilk;
+    background-color: rgb(208, 187, 228);
 }
 footer{
     background-color: black;
-    color: white;
+    color: burlywood;
     padding: 10px;
 }
 
@@ -37,4 +37,27 @@ footer{
     content: "";
     display: block;
     clear: both;
+    color: rgb(213, 187, 236);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 1.75;
+    overflow-x: hidden;
+    position: relative;
+    font-size: 14 px;
+    left: 0;
+    width: 100%;
+}
+h1,h2,h3{
+    color: white;
+}
+h5{
+    color: black;
+}
+p{
+    color: black;
+}
+article{
+    color: black;
 }
