@@ -8,6 +8,10 @@ nav{
     color: white;
     padding: 10px;
 }
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+}
 section{
     float: left;
     width: 70%;
